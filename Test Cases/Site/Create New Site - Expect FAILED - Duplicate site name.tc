@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Site - Expect FAILED - Duplicate site name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b407a005-0311-4f24-97b6-fc89c1e8c281</testCaseGuid>
+   <variable>
+      <defaultValue>'Site22\r\n'</defaultValue>
+      <description></description>
+      <id>f6522bc9-cae1-48b3-9e07-a19855b50a5c</id>
+      <masked>false</masked>
+      <name>siteName</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>326b8049-0b53-467a-a29a-41b67228633f</id>
+      <masked>false</masked>
+      <name>isActive</name>
+   </variable>
+</TestCaseEntity>

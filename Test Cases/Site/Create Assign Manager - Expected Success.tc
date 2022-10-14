@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Assign Manager - Expected Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>279ce8cb-dd77-4625-b7f0-fab4b3bf66c4</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Site Page/Page_/div_USR0096 - PM1')</defaultValue>
+      <description></description>
+      <id>23deb726-4869-47bc-87d5-62f16d29e32e</id>
+      <masked>false</masked>
+      <name>userManager</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Site Page/Page_/span_Created 2021-06-18 200710')</defaultValue>
+      <description></description>
+      <id>0203cdbc-333b-46c6-acb9-0a2b2148a8dd</id>
+      <masked>false</masked>
+      <name>createdAt</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Site Page/Page_/span_Last Update 2021-06-18 200710')</defaultValue>
+      <description></description>
+      <id>fddd5a16-7d6d-493a-9c2b-679f6294f1b5</id>
+      <masked>false</masked>
+      <name>updatedAt</name>
+   </variable>
+</TestCaseEntity>

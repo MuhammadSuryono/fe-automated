@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dictionary Content Search - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1d7c169-0cfd-4e8a-a170-2366812db046</testCaseGuid>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>d028ca1f-c95e-4fd2-ab22-4dbcd563aa89</id>
+      <masked>false</masked>
+      <name>textInputSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>c68c97e6-52ce-4b5b-9c26-7cbadfddaa68</id>
+      <masked>false</masked>
+      <name>buttonSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1f07e517-87da-410c-b71a-feeb25cd4a69</id>
+      <masked>false</masked>
+      <name>firstRow</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>68717bec-91bf-431a-8257-cecf60503f98</id>
+      <masked>false</masked>
+      <name>isLoadFilter</name>
+   </variable>
+</TestCaseEntity>

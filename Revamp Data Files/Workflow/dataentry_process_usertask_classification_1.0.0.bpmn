@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:zeebe="http://camunda.org/schema/zeebe/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_005jd10" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Zeebe Modeler" exporterVersion="0.11.0">
+  <bpmn:process id="process_usertask_classification_dataentry" name="Process User Task Classification Data Entry" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1">
+      <bpmn:outgoing>Flow_1vsh80c</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="Flow_1vsh80c" sourceRef="StartEvent_1" targetRef="ActivityCreateImageClassificationTask" />
+    <bpmn:serviceTask id="ActivityValidationBeforeSubmit" name="Validation Before Submit">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="task-worker" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1c4v9ek</bpmn:incoming>
+      <bpmn:outgoing>Flow_0ajoc3f</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ActivitySaveSubmittedTask" name="Save Submitted Task">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="task-worker" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1wekaz1</bpmn:incoming>
+      <bpmn:outgoing>Flow_0ovla8r</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:endEvent id="Event_0rzfxnu">
+      <bpmn:incoming>Flow_0ovla8r</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:exclusiveGateway id="Gateway_0spy186">
+      <bpmn:incoming>Flow_0ajoc3f</bpmn:incoming>
+      <bpmn:outgoing>Flow_1wekaz1</bpmn:outgoing>
+      <bpmn:outgoing>Flow_0eh8lh2</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:serviceTask id="ActivityAssignUserTask" name="Assign User Task">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="task-worker" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_0eh8lh2</bpmn:incoming>
+      <bpmn:incoming>Flow_1rbttec</bpmn:incoming>
+      <bpmn:outgoing>Flow_01ab6hz</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_1wekaz1" name="Ready for Save Task" sourceRef="Gateway_0spy186" targetRef="ActivitySaveSubmittedTask">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">= validation_classification = true</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_01ab6hz" sourceRef="ActivityAssignUserTask" targetRef="ActivityInitLabelStudioClassification" />
+    <bpmn:sequenceFlow id="Flow_0eh8lh2" name="Re Assign to current user" sourceRef="Gateway_0spy186" targetRef="ActivityAssignUserTask">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">= validation_classification = false</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_0ovla8r" sourceRef="ActivitySaveSubmittedTask" targetRef="Event_0rzfxnu" />
+    <bpmn:sequenceFlow id="Flow_0ajoc3f" sourceRef="ActivityValidationBeforeSubmit" targetRef="Gateway_0spy186" />
+    <bpmn:sequenceFlow id="Flow_1c49wsp" sourceRef="ActivityInitLabelStudioClassification" targetRef="Event_1bdlyhr" />
+    <bpmn:serviceTask id="ActivityInitLabelStudioClassification" name="Init LabelStudio Classification">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="task-worker" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_01ab6hz</bpmn:incoming>
+      <bpmn:outgoing>Flow_1c49wsp</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ActivityCreateImageClassificationTask" name="Create User Classification Task">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="task-worker" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1vsh80c</bpmn:incoming>
+      <bpmn:outgoing>Flow_14g5zm9</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:intermediateCatchEvent id="Event_1bdlyhr" name="Start Image Classification">
+      <bpmn:incoming>Flow_1c49wsp</bpmn:incoming>
+      <bpmn:outgoing>Flow_15deodd</bpmn:outgoing>
+      <bpmn:messageEventDefinition id="MessageEventDefinition_1fmzkq5" messageRef="Message_1cxdlb6" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:sequenceFlow id="Flow_15deodd" sourceRef="Event_1bdlyhr" targetRef="Event_1dhcvxr" />
+    <bpmn:intermediateCatchEvent id="Event_1dhcvxr" name="Finish Image Classification">
+      <bpmn:incoming>Flow_15deodd</bpmn:incoming>
+      <bpmn:outgoing>Flow_1c4v9ek</bpmn:outgoing>
+      <bpmn:messageEventDefinition id="MessageEventDefinition_1xqrnjk" messageRef="Message_18k17jd" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:sequenceFlow id="Flow_1c4v9ek" sourceRef="Event_1dhcvxr" targetRef="ActivityValidationBeforeSubmit" />
+    <bpmn:sequenceFlow id="Flow_14g5zm9" sourceRef="ActivityCreateImageClassificationTask" targetRef="Event_1vku6j8" />
+    <bpmn:intermediateCatchEvent id="Event_1vku6j8" name="User Request Task">
+      <bpmn:incoming>Flow_14g5zm9</bpmn:incoming>
+      <bpmn:outgoing>Flow_1rbttec</bpmn:outgoing>
+      <bpmn:messageEventDefinition id="MessageEventDefinition_1n7jpyp" messageRef="Message_0eeafpo" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:sequenceFlow id="Flow_1rbttec" sourceRef="Event_1vku6j8" targetRef="ActivityAssignUserTask" />
+    <bpmn:textAnnotation id="TextAnnotation_19ty7nh">
+      <bpmn:text>LabelStudio Service</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:association id="Association_1vxcubk" sourceRef="ActivityInitLabelStudioClassification" targetRef="TextAnnotation_19ty7nh" />
+    <bpmn:textAnnotation id="TextAnnotation_1st7a77">
+      <bpmn:text>Submit Task (Small Batch)</bpmn:text>
+    </bpmn:textAnnotation>
+  </bpmn:process>
+  <bpmn:message id="Message_1cxdlb6" name="TaskMessage">
+    <bpmn:extensionElements>
+      <zeebe:subscription correlationKey="=&#34;start-image-classification-dataentry-&#34;+string(small_batch_id)+&#34;-by-user-&#34;+string(user_id)" />
+    </bpmn:extensionElements>
+  </bpmn:message>
+  <bpmn:message id="Message_18k17jd" name="TaskMessage">
+    <bpmn:extensionElements>
+      <zeebe:subscription correlationKey="=&#34;finish-image-classification-dataentry-&#34;+string(small_batch_id)+&#34;-by-user-&#34;+string(user_id)" />
+    </bpmn:extensionElements>
+  </bpmn:message>
+  <bpmn:message id="Message_0eeafpo" name="TaskMessage">
+    <bpmn:extensionElements>
+      <zeebe:subscription correlationKey="=&#34;user-request-task-classification-dataentry&#34;" />
+    </bpmn:extensionElements>
+  </bpmn:message>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="process_usertask_classification_dataentry">
+      <bpmndi:BPMNEdge id="Flow_1rbttec_di" bpmnElement="Flow_1rbttec">
+        <di:waypoint x="548" y="200" />
+        <di:waypoint x="680" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_14g5zm9_di" bpmnElement="Flow_14g5zm9">
+        <di:waypoint x="420" y="200" />
+        <di:waypoint x="512" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1c4v9ek_di" bpmnElement="Flow_1c4v9ek">
+        <di:waypoint x="1258" y="200" />
+        <di:waypoint x="1380" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_15deodd_di" bpmnElement="Flow_15deodd">
+        <di:waypoint x="1118" y="200" />
+        <di:waypoint x="1222" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1c49wsp_di" bpmnElement="Flow_1c49wsp">
+        <di:waypoint x="950" y="200" />
+        <di:waypoint x="1082" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0ajoc3f_di" bpmnElement="Flow_0ajoc3f">
+        <di:waypoint x="1480" y="200" />
+        <di:waypoint x="1545" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0ovla8r_di" bpmnElement="Flow_0ovla8r">
+        <di:waypoint x="1840" y="200" />
+        <di:waypoint x="1908" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0eh8lh2_di" bpmnElement="Flow_0eh8lh2">
+        <di:waypoint x="1570" y="225" />
+        <di:waypoint x="1570" y="310" />
+        <di:waypoint x="730" y="310" />
+        <di:waypoint x="730" y="240" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1129" y="276" width="63" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_01ab6hz_di" bpmnElement="Flow_01ab6hz">
+        <di:waypoint x="780" y="200" />
+        <di:waypoint x="850" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1wekaz1_di" bpmnElement="Flow_1wekaz1">
+        <di:waypoint x="1595" y="200" />
+        <di:waypoint x="1740" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1632" y="186" width="76" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1vsh80c_di" bpmnElement="Flow_1vsh80c">
+        <di:waypoint x="188" y="200" />
+        <di:waypoint x="320" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="152" y="182" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0oe9t1z_di" bpmnElement="ActivityValidationBeforeSubmit">
+        <dc:Bounds x="1380" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0aa0kol_di" bpmnElement="ActivitySaveSubmittedTask">
+        <dc:Bounds x="1740" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0rzfxnu_di" bpmnElement="Event_0rzfxnu">
+        <dc:Bounds x="1908" y="182" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_0spy186_di" bpmnElement="Gateway_0spy186" isMarkerVisible="true">
+        <dc:Bounds x="1545" y="175" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0wqqtyj_di" bpmnElement="ActivityAssignUserTask">
+        <dc:Bounds x="680" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0gktpfq_di" bpmnElement="ActivityInitLabelStudioClassification">
+        <dc:Bounds x="850" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1mtv1i1_di" bpmnElement="ActivityCreateImageClassificationTask">
+        <dc:Bounds x="320" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_16brpcf_di" bpmnElement="Event_1bdlyhr">
+        <dc:Bounds x="1082" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1069" y="225" width="65" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_02fmd1z_di" bpmnElement="Event_1dhcvxr">
+        <dc:Bounds x="1222" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1208" y="225" width="65" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1weemta_di" bpmnElement="Event_1vku6j8">
+        <dc:Bounds x="512" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="496" y="225" width="68" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_19ty7nh_di" bpmnElement="TextAnnotation_19ty7nh">
+        <dc:Bounds x="960" y="80" width="100" height="40" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_1st7a77_di" bpmnElement="TextAnnotation_1st7a77">
+        <dc:Bounds x="1300" y="80" width="100" height="40" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Association_1vxcubk_di" bpmnElement="Association_1vxcubk">
+        <di:waypoint x="941" y="160" />
+        <di:waypoint x="984" y="120" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

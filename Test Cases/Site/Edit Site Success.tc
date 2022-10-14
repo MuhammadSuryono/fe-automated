@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Site Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63c5f3ac-1a1a-49ac-8b01-a05aef056bd4</testCaseGuid>
+   <variable>
+      <defaultValue>'Santy'</defaultValue>
+      <description></description>
+      <id>26ebbac3-404c-4234-b13e-7d4fd8dee9ae</id>
+      <masked>false</masked>
+      <name>textEdit</name>
+   </variable>
+</TestCaseEntity>

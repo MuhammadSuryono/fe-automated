@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter Site - Found Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1f8c683-164e-4a85-8f23-ebd277d6a8fe</testCaseGuid>
+   <variable>
+      <defaultValue>'Site1'</defaultValue>
+      <description></description>
+      <id>89bffe1f-e772-4195-a69b-393b58b91217</id>
+      <masked>false</masked>
+      <name>searchText</name>
+   </variable>
+</TestCaseEntity>

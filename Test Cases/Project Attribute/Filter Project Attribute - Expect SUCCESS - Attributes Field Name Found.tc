@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter Project Attribute - Expect SUCCESS - Attributes Field Name Found</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a576d433-a808-4d2b-976a-b465bed5b3e0</testCaseGuid>
+   <variable>
+      <defaultValue>'Data Entry Family Tree'</defaultValue>
+      <description></description>
+      <id>45d9ba10-2621-4dd2-93c2-1c082ffc01cf</id>
+      <masked>false</masked>
+      <name>attributeName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Site Manager - Expected Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69325fbd-55dc-495f-ac6d-9565bbc2418e</testCaseGuid>
+   <variable>
+      <defaultValue>'Indonesia'</defaultValue>
+      <description></description>
+      <id>e209eba4-8c78-44e9-9c3a-c9cfb3eea1a2</id>
+      <masked>false</masked>
+      <name>siteName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Olif,Siska'</defaultValue>
+      <description></description>
+      <id>e8b4af22-108b-4120-bed4-48cd0102af97</id>
+      <masked>false</masked>
+      <name>manager</name>
+   </variable>
+</TestCaseEntity>

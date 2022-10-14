@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Success create dictionary no duplicate</description>
+   <name>Dictionary Create - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c5ff7bb-e61d-4121-b0e0-0e1a509f82af</testCaseGuid>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>0d00c516-63ca-4ef9-be98-0c3fe8fdd83b</id>
+      <masked>false</masked>
+      <name>modalCreateContent</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>97773093-fcfc-43fa-b074-0bb6ae62eb1a</id>
+      <masked>false</masked>
+      <name>messageSuccessCreate</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>ef37eb6c-f7f5-4ff0-a670-5cbc766f803f</id>
+      <masked>false</masked>
+      <name>iconSuccess</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8dfbc2eb-86f2-4c55-a170-9b59795fde06</id>
+      <masked>false</masked>
+      <name>dataAfterInsertOnIndex</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Site</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4738b4b3-7fb6-4d42-a4d6-d1b0a7166bdc</testCaseGuid>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>d51363eb-9172-47f0-8340-ab4edbdb7acf</id>
+      <masked>false</masked>
+      <name>isStatus</name>
+   </variable>
+</TestCaseEntity>

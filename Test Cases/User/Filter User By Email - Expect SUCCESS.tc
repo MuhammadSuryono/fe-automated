@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter User By Email - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8581fd4c-c5cc-47ce-816a-36ed0ca36084</testCaseGuid>
+</TestCaseEntity>

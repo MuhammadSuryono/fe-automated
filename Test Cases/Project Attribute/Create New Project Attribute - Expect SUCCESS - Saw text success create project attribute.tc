@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Project Attribute - Expect SUCCESS - Saw text success create project attribute</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae79a3f3-cbf3-4791-aa6a-a3ba1de912cf</testCaseGuid>
+   <variable>
+      <defaultValue>'Document Read'</defaultValue>
+      <description></description>
+      <id>2938bbbf-7265-4035-9afa-3f2e81894c4c</id>
+      <masked>false</masked>
+      <name>attributeName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Yes'</defaultValue>
+      <description></description>
+      <id>72034238-5fed-456b-b476-88a8caea7984</id>
+      <masked>false</masked>
+      <name>shouldProcess</name>
+   </variable>
+   <variable>
+      <defaultValue>'Label Studio'</defaultValue>
+      <description></description>
+      <id>eab0241d-6e88-42a5-8482-a40905390c33</id>
+      <masked>false</masked>
+      <name>attributeType</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>9e85ab0f-54b0-4c46-aab7-70cbb645e573</id>
+      <masked>false</masked>
+      <name>isSuccess</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>6275413f-3c27-45cb-bf61-7c23c4de5419</id>
+      <masked>false</masked>
+      <name>successAddedToTable</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dase'</defaultValue>
+      <description></description>
+      <id>142934e6-f34c-4b1d-8c9f-09685a1c4e5f</id>
+      <masked>false</masked>
+      <name>projectName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Boby\'s Family Tree'</defaultValue>
+      <description></description>
+      <id>40a4c70c-fea4-4411-b2e2-b9f2f1cf6ffa</id>
+      <masked>false</masked>
+      <name>titleDataEntryField</name>
+   </variable>
+   <variable>
+      <defaultValue>'Data Entry'</defaultValue>
+      <description></description>
+      <id>a79f7116-4182-48ea-8a7e-aef29e9edc9b</id>
+      <masked>false</masked>
+      <name>taskType</name>
+   </variable>
+</TestCaseEntity>

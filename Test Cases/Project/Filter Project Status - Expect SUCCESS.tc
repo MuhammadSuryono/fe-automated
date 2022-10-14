@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter Project Status - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e592593c-08fe-4b7a-aee8-f73b304b9c08</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a9e8af49-7e73-426f-9dee-5c4a698eefdf</id>
+      <masked>false</masked>
+      <name>statusActive</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d7ba4578-9523-44ce-95a4-11108bb3c0d9</id>
+      <masked>false</masked>
+      <name>statusNonActive</name>
+   </variable>
+</TestCaseEntity>

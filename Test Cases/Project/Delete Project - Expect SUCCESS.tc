@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Project - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5ff2abe-15d8-4352-be93-e2bd0635cef0</testCaseGuid>
+   <variable>
+      <defaultValue>'Are You Sure ?'</defaultValue>
+      <description></description>
+      <id>0039495e-6c91-4e26-aaaf-a34cdd33b9dd</id>
+      <masked>false</masked>
+      <name>messageQuestion</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>ada4d356-e425-43ce-a8c5-417c6a5e4872</id>
+      <masked>false</masked>
+      <name>isButtonCancel</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>06c66d4c-5cc1-4a64-8ca7-f63cbfec83c0</id>
+      <masked>false</masked>
+      <name>messageConfirmationDelete</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>cc091978-8368-4542-a075-23bbf6cd3c0f</id>
+      <masked>false</masked>
+      <name>iconSuccessDelete</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99b322ae-0712-4ace-b77e-b62590c8acdc</id>
+      <masked>false</masked>
+      <name>messageAlertSuccessDelete</name>
+   </variable>
+</TestCaseEntity>

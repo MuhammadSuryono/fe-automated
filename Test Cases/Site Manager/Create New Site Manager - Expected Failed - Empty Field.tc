@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Site Manager - Expected Failed - Empty Field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6bc559cf-afaf-49db-b1d7-3ff7b407acdc</testCaseGuid>
+</TestCaseEntity>

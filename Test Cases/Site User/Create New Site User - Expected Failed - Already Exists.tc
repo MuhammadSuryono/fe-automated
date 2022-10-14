@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Site User - Expected Failed - Already Exists</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6941750c-3b22-46dd-85dd-2c18eaacc1d5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8dcd36b6-92d0-424d-b4a1-5cc074f847a6</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fec230b1-ca42-4b5e-98f2-a8ed759d724f</id>
+      <masked>false</masked>
+      <name>variable_0</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9d7881c5-9164-41d6-a8f4-714974aa5d29</id>
+      <masked>false</masked>
+      <name>variable_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bab8fca6-bab2-43df-9ed2-2a50a50f7235</id>
+      <masked>false</masked>
+      <name>variable_2</name>
+   </variable>
+</TestCaseEntity>

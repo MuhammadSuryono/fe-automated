@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TC Debugger TestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>fc977cf7-ca7d-408e-85ec-cbf1bd8e38cb</testSuiteGuid>
+   <testCaseLink>
+      <guid>740f74ef-0a3a-41ef-be9d-4277a923b710</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login Sucess</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e01c5a6e-dbc3-44ea-ad35-e617193d516d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1332d1d9-bba0-4b30-acd7-8ffa6c812bfb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3f48f0c1-b76f-463c-ad20-ef122dce7f1a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Site Manager/Create New Site Manager - Expected Success</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a83996b8-db87-4fdb-b73f-cc985042b837</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data Site Manager</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a83996b8-db87-4fdb-b73f-cc985042b837</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>site_name</value>
+         <variableId>e209eba4-8c78-44e9-9c3a-c9cfb3eea1a2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a83996b8-db87-4fdb-b73f-cc985042b837</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>manager</value>
+         <variableId>e8b4af22-108b-4120-bed4-48cd0102af97</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

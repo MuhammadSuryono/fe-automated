@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Project - Expect FAILED - Project Name Duplicate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3c537c93-7d44-4d90-a19a-2266f5a61009</testCaseGuid>
+</TestCaseEntity>

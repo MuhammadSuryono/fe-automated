@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New User - Expect SUCCESS - Row Created and Saw Dialog Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa3c972c-4f6e-4e77-954e-82d1c39134aa</testCaseGuid>
+   <variable>
+      <defaultValue>'Dian'</defaultValue>
+      <description></description>
+      <id>0af7efdc-98d7-4e2d-bc6b-26d4947a7394</id>
+      <masked>false</masked>
+      <name>fullname</name>
+   </variable>
+   <variable>
+      <defaultValue>'revamp_dian'</defaultValue>
+      <description></description>
+      <id>4bd0bc8a-5fbc-4d81-8b53-148eb0d626af</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'revamp_dian@lifewood.dev'</defaultValue>
+      <description></description>
+      <id>63856804-ed26-42e9-9a6d-02ccf2607bfa</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Operator Data Entry'</defaultValue>
+      <description></description>
+      <id>8606b111-5e30-4133-8c60-1f0a6a6795a4</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'aeHFOx8jV/A='</defaultValue>
+      <description></description>
+      <id>ba4a6ec8-6c41-4b8a-8230-e4af2f14f26c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'aeHFOx8jV/A='</defaultValue>
+      <description></description>
+      <id>82774598-7033-4330-a9b9-5ade75bda79b</id>
+      <masked>false</masked>
+      <name>confirm_password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Active'</defaultValue>
+      <description></description>
+      <id>5366d158-ced2-48c9-b5d5-2231591ac21d</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

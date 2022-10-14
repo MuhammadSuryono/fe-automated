@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Batch - Expect SUCCESS - Saw dialog success save batch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b24d535d-c7cd-4503-afcb-9ce9ca18ce3d</testCaseGuid>
+   <variable>
+      <defaultValue>'Dev Project Labeling DEBUG'</defaultValue>
+      <description></description>
+      <id>c0785fc5-0906-4085-8a1e-8c59af369847</id>
+      <masked>false</masked>
+      <name>chooseProjectName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Indonesia'</defaultValue>
+      <description></description>
+      <id>5dbc9330-6b5c-42e1-b2a7-db43cb1a7e65</id>
+      <masked>false</masked>
+      <name>chooseSite</name>
+   </variable>
+   <variable>
+      <defaultValue>'SampleBatch051-100Rows.xlsx'</defaultValue>
+      <description></description>
+      <id>868fde64-6d65-4ade-a593-3f0a1496c45b</id>
+      <masked>false</masked>
+      <name>batchFile</name>
+   </variable>
+   <variable>
+      <defaultValue>'50'</defaultValue>
+      <description></description>
+      <id>a29dbe88-bf8f-4456-ba86-54c37dae0af7</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>5183aacf-ff57-4dce-8777-7c5f54b0ae22</id>
+      <masked>false</masked>
+      <name>priority</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Dictionary - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44109d56-3b06-4703-a844-c119ddc3abbb</testCaseGuid>
+</TestCaseEntity>

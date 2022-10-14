@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validation Form Field Empty - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14942b23-14f2-4a03-9e69-98866c10fea7</testCaseGuid>
+</TestCaseEntity>

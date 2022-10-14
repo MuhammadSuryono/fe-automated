@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Project - Expect SUCCESS - Saw dialog success and text success create project</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3cb39a93-a788-4f21-a4fc-80a01f717e79</testCaseGuid>
+   <variable>
+      <defaultValue>'Project Data Entry Labeling Classification'</defaultValue>
+      <description></description>
+      <id>7132eb8b-cbb6-475c-9bf2-d450a7232df4</id>
+      <masked>false</masked>
+      <name>projectName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Active'</defaultValue>
+      <description></description>
+      <id>9cda7987-aab1-41ef-917d-4a52972d85e0</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+   <variable>
+      <defaultValue>'Proda'</defaultValue>
+      <description></description>
+      <id>69540aba-77a5-417e-8ace-816858b3f54c</id>
+      <masked>false</masked>
+      <name>managerList</name>
+   </variable>
+   <variable>
+      <defaultValue>'project-workflow-labeling'</defaultValue>
+      <description></description>
+      <id>f91d71d8-4430-4a55-b3f1-bfa2d44db048</id>
+      <masked>false</masked>
+      <name>workflowList</name>
+   </variable>
+   <variable>
+      <defaultValue>'2021-06-01'</defaultValue>
+      <description></description>
+      <id>6dc3884c-d716-4706-85e1-8bc902aac7b7</id>
+      <masked>false</masked>
+      <name>startDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'2021-10-01'</defaultValue>
+      <description></description>
+      <id>1c7b3f8b-a952-48fb-9e3d-15924e6f89b7</id>
+      <masked>false</masked>
+      <name>endDate</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>e1005b5c-ea11-44b3-aa22-9bff7bff5fcb</id>
+      <masked>false</masked>
+      <name>iconSuccessCreate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>709151b7-56c3-45f3-a7ef-2d407f87cda3</id>
+      <masked>false</masked>
+      <name>messageSuccessCreateProject</name>
+   </variable>
+</TestCaseEntity>

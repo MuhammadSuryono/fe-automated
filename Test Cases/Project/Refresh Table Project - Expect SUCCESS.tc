@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This process will be reload data in table</description>
+   <name>Refresh Table Project - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7e3c0d6-4782-473b-9094-c74c7e4a9160</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>9c56fdfc-fdb7-43b8-9368-ed5b510d1191</id>
+      <masked>false</masked>
+      <name>rowsAfterSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>ae69dc1a-468f-4de2-988f-98e66e9fb0b2</id>
+      <masked>false</masked>
+      <name>rowsAfterButtonRefresh</name>
+   </variable>
+</TestCaseEntity>

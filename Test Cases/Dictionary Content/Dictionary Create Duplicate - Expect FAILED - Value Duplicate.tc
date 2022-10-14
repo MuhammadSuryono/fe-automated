@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Duplicate Content</description>
+   <name>Dictionary Create Duplicate - Expect FAILED - Value Duplicate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e28f9bc5-a2d8-4179-babc-968716ac9eb2</testCaseGuid>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>01bf0071-db14-4cb6-a1d5-29a888a75f96</id>
+      <masked>false</masked>
+      <name>modalContentCreate</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>a6437c3e-a315-4b3c-b0cf-22ced7d6e9cb</id>
+      <masked>false</masked>
+      <name>iconError</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>605c2dc5-4d39-4f2b-9952-d973e4a3723c</id>
+      <masked>false</masked>
+      <name>messageDuplicate</name>
+   </variable>
+</TestCaseEntity>

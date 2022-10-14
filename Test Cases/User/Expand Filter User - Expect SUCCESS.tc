@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Expand Filter User - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>367ed097-e97c-4c90-a710-d3c468608c64</testCaseGuid>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>0b386dd6-65fe-417d-9e80-6c73cc7da5b4</id>
+      <masked>false</masked>
+      <name>expand</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>06bfc1ca-39c0-4f6b-a82e-1b675d1cb604</id>
+      <masked>false</masked>
+      <name>collapse</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Task Type - Expect SUCCESS - Saw dialog success and text create success task type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9dc82261-b240-4268-acac-abb56ca6b96a</testCaseGuid>
+   <variable>
+      <defaultValue>'Labeling Data Entry'</defaultValue>
+      <description></description>
+      <id>4b1e4429-bb21-4abf-9bbc-67a51e6d9459</id>
+      <masked>false</masked>
+      <name>taskTypeName</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>bd03e0bd-5ad0-499c-92e8-bb86fc1506e2</id>
+      <masked>false</masked>
+      <name>isIconSuccess</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>31850cb5-8184-4af5-ad0a-3fdf21ffbb38</id>
+      <masked>false</masked>
+      <name>isMessageSuccess</name>
+   </variable>
+   <variable>
+      <defaultValue>'project-workflow-data-entry'</defaultValue>
+      <description></description>
+      <id>612922bc-9f1f-42c6-9eac-f00a1e835a17</id>
+      <masked>false</masked>
+      <name>workflow</name>
+   </variable>
+</TestCaseEntity>

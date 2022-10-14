@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Data Entry - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5328c5c7-0aa3-402d-bc1e-1fb4cdedaff7</testCaseGuid>
+   <variable>
+      <defaultValue>'Name'</defaultValue>
+      <description></description>
+      <id>0d0d17eb-815c-488e-931c-ff297bb2757a</id>
+      <masked>false</masked>
+      <name>column1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Age'</defaultValue>
+      <description></description>
+      <id>8aff8452-f9c7-406f-a8a1-30afddf1cfff</id>
+      <masked>false</masked>
+      <name>column2</name>
+   </variable>
+   <variable>
+      <defaultValue>'DIC0001'</defaultValue>
+      <description></description>
+      <id>1ee042f7-f13f-4e2a-bd66-4a51726943b4</id>
+      <masked>false</masked>
+      <name>columnDictionary</name>
+   </variable>
+   <variable>
+      <defaultValue>'Surname'</defaultValue>
+      <description></description>
+      <id>fcbc87a0-ee9a-450b-922f-6cdd80892654</id>
+      <masked>false</masked>
+      <name>titleDictionary</name>
+   </variable>
+   <variable>
+      <defaultValue>'Comment'</defaultValue>
+      <description></description>
+      <id>3f6b81d4-5e75-417f-9dab-c6da6e888a8c</id>
+      <masked>false</masked>
+      <name>column4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d74b27ec-35c6-41af-836f-3a0daafc52b4</id>
+      <masked>false</masked>
+      <name>messageSuccessCreate</name>
+   </variable>
+   <variable>
+      <defaultValue>'Boby\'s Family Tree'</defaultValue>
+      <description></description>
+      <id>872b784c-74d2-46d2-bf15-0d07393da65f</id>
+      <masked>false</masked>
+      <name>titleDataEntryField</name>
+   </variable>
+   <variable>
+      <defaultValue>'/angga/'</defaultValue>
+      <description></description>
+      <id>665cb64a-349a-44ef-ba61-205c6d8ec21f</id>
+      <masked>false</masked>
+      <name>regexInput</name>
+   </variable>
+</TestCaseEntity>

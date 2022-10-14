@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Assign Manager - Exprected Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c404dde-78b0-47dc-a62b-db7fe4dcb86f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Site Page/Page_/span_ACTIVE')</defaultValue>
+      <description></description>
+      <id>408022aa-8efd-48d5-a8b1-8c012cc80f3c</id>
+      <masked>false</masked>
+      <name>active</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Site Page/Page_/span_NOT ACTIVE')</defaultValue>
+      <description></description>
+      <id>49e041f1-0e3c-496c-a933-4714ab2f7376</id>
+      <masked>false</masked>
+      <name>notActive</name>
+   </variable>
+</TestCaseEntity>

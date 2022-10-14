@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Site User - Expected Success - Saw dialog success create</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54238a07-0321-44d1-8dcb-1163bd2a7580</testCaseGuid>
+   <variable>
+      <defaultValue>'Indonesia'</defaultValue>
+      <description></description>
+      <id>e4ef8a54-2424-4fbe-9e9f-77019292969a</id>
+      <masked>false</masked>
+      <name>siteName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Winda'</defaultValue>
+      <description></description>
+      <id>7ed8e75c-c3f3-465b-8177-715ec71e52c7</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'Classification'</defaultValue>
+      <description></description>
+      <id>223d7396-320e-4f97-913b-66fd98940dc2</id>
+      <masked>false</masked>
+      <name>moduleName</name>
+   </variable>
+</TestCaseEntity>

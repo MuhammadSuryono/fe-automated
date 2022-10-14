@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter Site User - Expected Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f115756-dd0f-48ef-abc7-6b9d3442c392</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Site User/Page_/div_SIT0216 - Laos')</defaultValue>
+      <description></description>
+      <id>e821d366-4b67-42cd-820f-30435c7fc639</id>
+      <masked>false</masked>
+      <name>site</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Site User/Page_/div_USR0102 - Winda')</defaultValue>
+      <description></description>
+      <id>a7d83d3b-198e-4406-928d-e6e036fa2bad</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+</TestCaseEntity>

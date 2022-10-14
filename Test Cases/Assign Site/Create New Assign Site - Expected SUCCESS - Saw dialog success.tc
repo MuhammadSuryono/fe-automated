@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Assign Site - Expected SUCCESS - Saw dialog success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51d8c13a-7d6d-436b-bd8f-1ed19f9a33f0</testCaseGuid>
+   <variable>
+      <defaultValue>'Dev Project Labeling'</defaultValue>
+      <description></description>
+      <id>55bd5ed3-69cb-4853-b791-d38fea075c2a</id>
+      <masked>false</masked>
+      <name>project</name>
+   </variable>
+   <variable>
+      <defaultValue>'Indonesia'</defaultValue>
+      <description></description>
+      <id>a97dab40-7ee0-4199-988d-5700d8e11c5e</id>
+      <masked>false</masked>
+      <name>siteName</name>
+   </variable>
+</TestCaseEntity>

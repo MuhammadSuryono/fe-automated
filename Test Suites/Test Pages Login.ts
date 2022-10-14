@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test Pages Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>9032a7df-3b12-4ca4-8e41-bef18d05c3f9</testSuiteGuid>
+   <testCaseLink>
+      <guid>7ae55873-7fb2-4417-9c50-1884eb40a2d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login Failed - Incorrect Password</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e97b598b-050e-47c1-acd9-d3e471028cf6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>94c60e20-8434-43cc-b4dd-e188279ddb09</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4a0ed685-aca9-41c6-a58d-4c8e0a3194a1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login Failed - Incorrect Username</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f3ec24f3-3886-46aa-84c2-1a549312cd10</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5de00669-2d92-4510-af1f-a6db53468803</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>023ee541-57b6-4c09-985f-b97df9af4b97</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login UI - Contains Logo Lifewood</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bda4adc3-987f-44bb-b477-9ed4c1a573af</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login Sucess</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e01c5a6e-dbc3-44ea-ad35-e617193d516d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1332d1d9-bba0-4b30-acd7-8ffa6c812bfb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ebb3bfa3-4630-483d-80bd-1919e2e4bb3d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tearDown/Kill Chrome</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

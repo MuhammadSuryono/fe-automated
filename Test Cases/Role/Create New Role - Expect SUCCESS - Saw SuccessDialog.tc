@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Role - Expect SUCCESS - Saw SuccessDialog</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0221efe-5006-4ab1-a6ca-19765ffd6b7f</testCaseGuid>
+   <variable>
+      <defaultValue>'Monitoring'</defaultValue>
+      <description></description>
+      <id>47415c8c-4c1c-4131-962b-e347f8ff9c3a</id>
+      <masked>false</masked>
+      <name>role_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'File Management Viewer, Site Viewer, Role Viewer'</defaultValue>
+      <description></description>
+      <id>10a38fba-0b2c-4e8e-92cf-9d957482a47e</id>
+      <masked>false</masked>
+      <name>policies</name>
+   </variable>
+</TestCaseEntity>

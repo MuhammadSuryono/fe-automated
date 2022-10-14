@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Site Failed - Already Exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14308282-4c38-4d9e-861c-7e730c8a519c</testCaseGuid>
+   <variable>
+      <defaultValue>'Site1\r\n'</defaultValue>
+      <description></description>
+      <id>6ce8ec2c-19ed-45d7-9228-d4b20124ab7c</id>
+      <masked>false</masked>
+      <name>siteName</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>9f25f946-4eae-4b17-baf4-9e2a5aa7d3a3</id>
+      <masked>false</masked>
+      <name>isActive</name>
+   </variable>
+</TestCaseEntity>

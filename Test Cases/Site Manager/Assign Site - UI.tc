@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Assign Site - UI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b03bbd2d-44c4-4c68-a9dc-b47ed501eb00</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Site Manager/Page_/button_1 Site')</defaultValue>
+      <description></description>
+      <id>415edfdf-dc09-4a7b-9619-2896f5ac4d8c</id>
+      <masked>false</masked>
+      <name>siteRow</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Site Manager/Page_/td_USR0111')</defaultValue>
+      <description></description>
+      <id>1cb47682-1508-4b53-8657-4d7724f89ba6</id>
+      <masked>false</masked>
+      <name>userCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Site Manager/Page_/td_Bela')</defaultValue>
+      <description></description>
+      <id>714950eb-5793-4ce7-aca5-e140ba037343</id>
+      <masked>false</masked>
+      <name>fullname</name>
+   </variable>
+</TestCaseEntity>

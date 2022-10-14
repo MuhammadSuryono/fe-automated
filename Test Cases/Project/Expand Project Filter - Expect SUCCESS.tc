@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Box Project filter able Expand and collapse</description>
+   <name>Expand Project Filter - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a644384f-19c1-4643-97d7-1ee02bc1ca77</testCaseGuid>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>759051e9-766f-45d2-9e05-12733a71ee83</id>
+      <masked>false</masked>
+      <name>expand</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>6a26d19e-d6c1-48f0-bf25-c7ca1f45932e</id>
+      <masked>false</masked>
+      <name>elementFilter</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>f8ab2854-31bd-4e64-8961-ac559b390734</id>
+      <masked>false</masked>
+      <name>collapse</name>
+   </variable>
+</TestCaseEntity>

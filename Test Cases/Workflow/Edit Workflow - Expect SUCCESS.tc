@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Workflow - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a05056c4-e3e5-4726-9500-d5b835852454</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>531e327d-b638-4c8c-aef1-b5512b22ef21</id>
+      <masked>false</masked>
+      <name>workflowNameAfterEdit</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>e5e8319e-ca23-4650-9607-a103271f4557</id>
+      <masked>false</masked>
+      <name>isTitleBoxList</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>42b3649c-a3e8-43eb-88cf-45f7f7a3fca2</id>
+      <masked>false</masked>
+      <name>isTitlePage</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ef7c3aee-5d79-4c10-9a62-87df6991a654</id>
+      <masked>false</masked>
+      <name>messageSuccessUpdate</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>3a98414e-d6e5-4b25-a681-31e69b053cb2</id>
+      <masked>false</masked>
+      <name>iconSuccess</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>6a01508a-031f-4f48-82cc-357eadaaada0</id>
+      <masked>false</masked>
+      <name>isTitlePageEdit</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>148e02ca-8409-4e83-809a-1a13ff5cc6de</id>
+      <masked>false</masked>
+      <name>isTitleEditor</name>
+   </variable>
+</TestCaseEntity>

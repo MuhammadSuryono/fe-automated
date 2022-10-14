@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Page Task Type</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>bad28268-3d33-4b19-a280-5d4cf0f162e9</testSuiteGuid>
+   <testCaseLink>
+      <guid>5ac67569-3458-4953-b4ae-60f42f6c52ac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login Sucess</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e01c5a6e-dbc3-44ea-ad35-e617193d516d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1332d1d9-bba0-4b30-acd7-8ffa6c812bfb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49365eed-9a94-4a5a-81ba-78dbbaded104</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Task Type/Create Task Type - Expect SUCCESS - Saw dialog success and text create success task type</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4b1e4429-bb21-4abf-9bbc-67a51e6d9459</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bd03e0bd-5ad0-499c-92e8-bb86fc1506e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>31850cb5-8184-4af5-ad0a-3fdf21ffbb38</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>612922bc-9f1f-42c6-9eac-f00a1e835a17</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>363a9917-4b98-4dcb-b2b9-e8f054378b3d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Task Type/Edit Task Type - Expect SUCCESS</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>58abfc63-e28b-4bb3-a1c2-7b3f6e27b424</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>41501815-9055-4db8-9302-38101859cc20</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>82167fb2-f369-40ed-9a9d-a50c0e58c2ec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Task Type/Delete Task Type - Expect SUCCESS</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

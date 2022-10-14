@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validation form if user empty field role name and role policies</description>
+   <name>Validation Field Empty - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a356416b-881d-48a1-a22b-827e7cf7e5fc</testCaseGuid>
+</TestCaseEntity>

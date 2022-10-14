@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Crerate New Dictionary - Expect FAILED - Title Duplicate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>716a0434-7fd2-4c7c-b148-b0d81d28c325</testCaseGuid>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>8774c59b-d1ed-4fe2-9ccd-09fcb88bbf2c</id>
+      <masked>false</masked>
+      <name>iconError</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ea0b9d65-00ab-4c0e-a8dc-241441ae849a</id>
+      <masked>false</masked>
+      <name>messageCreateDictionary</name>
+   </variable>
+   <variable>
+      <defaultValue>'(:?s|Already|Exists)'</defaultValue>
+      <description></description>
+      <id>48621fa6-d8f6-4f11-9cd5-28c2e78a565b</id>
+      <masked>false</masked>
+      <name>regexAlreadyExists</name>
+   </variable>
+</TestCaseEntity>

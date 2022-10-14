@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Failed - Incorrect Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2fd138e0-5486-4ec2-918d-e96d0fccb53c</testCaseGuid>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>f3ec24f3-3886-46aa-84c2-1a549312cd10</id>
+      <masked>false</masked>
+      <name>hasErrorMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>5de00669-2d92-4510-af1f-a6db53468803</id>
+      <masked>false</masked>
+      <name>seeProfilePicture</name>
+   </variable>
+</TestCaseEntity>

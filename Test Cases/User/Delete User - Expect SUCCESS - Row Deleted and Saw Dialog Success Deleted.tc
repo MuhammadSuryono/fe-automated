@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete User - Expect SUCCESS - Row Deleted and Saw Dialog Success Deleted</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1fecdfe-e23f-46a8-a876-6b9aabe05703</testCaseGuid>
+</TestCaseEntity>

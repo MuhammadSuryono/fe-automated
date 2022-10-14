@@ -1,0 +1,61 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.click(findTestObject('Page_/a_Project Attribute'))
+
+WebUI.click(findTestObject('Object Repository/Page_/Edit button'))
+
+WebUI.click(findTestObject('Page_/div_PRJ0014 - Test I'))
+
+WebUI.click(findTestObject('Object Repository/Page_/div_PRJ0013 - test project I'))
+
+WebUI.setText(findTestObject('Page_/input_Attribute Name_attribute_field_name'), attributeName)
+
+WebUI.click(findTestObject('Page_/div_- Choose Task Type -'))
+
+WebUI.click(findTestObject('Object Repository/Page_/div_TTP0019 - test task type edit'))
+
+WebUI.click(findTestObject('Page_/div_- Choose Attribute Types -'))
+
+WebUI.click(findTestObject('Page_/div_Label Studio'))
+
+WebUI.click(findTestObject('Page_/div_Yes_box (project attribute)'))
+
+if (shouldProcess) {
+    WebUI.click(findTestObject('Page_/div_Yes (project attribute)'))
+} else {
+    WebUI.click(findTestObject('Page_/div_No (project attribute)'))
+}
+
+WebUI.click(findTestObject('User/FormUser_ButtonSave'))
+
+isSuccess = WebUI.waitForElementVisible(findTestObject('Object Repository/Page_/h2_Success update Project Attribute'), 3)
+
+isSuccessLogo = WebUI.waitForElementVisible(findTestObject('Object Repository/Page_/div__swal2-success-ring'), 10)
+assert isSuccess == true && isSuccessLogo : 'success edit data'
+
+WebUI.click(findTestObject('Object Repository/Page_/button_OK (project attribute)'))
+
+
+successAddedToTable = WebUI.verifyElementText(findTestObject('Page_/table row project attribute index 1'), attributeName)
+
+
+
+assert successAddedToTable == true : 'Berhasil ditambahkan ke table'
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Show data table based click page</description>
+   <name>Pagination Table - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27485059-73ee-43de-a324-cb4bd3210b13</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>66f1d9cb-d5df-44db-9ab0-7fbe60a4573a</id>
+      <masked>false</masked>
+      <name>numberColumn</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2abff1b2-c465-4747-b8f7-cda158953ddc</id>
+      <masked>false</masked>
+      <name>urlBack</name>
+   </variable>
+</TestCaseEntity>

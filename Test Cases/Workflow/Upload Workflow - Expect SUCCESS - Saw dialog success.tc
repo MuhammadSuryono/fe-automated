@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Workflow - Expect SUCCESS - Saw dialog success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fced5dd7-45a0-4e18-88de-a216ce413c04</testCaseGuid>
+   <variable>
+      <defaultValue>'Revamp Data Files\\Workflow\\batch_validator_1.0.0.bpmn'</defaultValue>
+      <description></description>
+      <id>d4a6e4db-7ae7-4e82-8011-8be53c8c9ad0</id>
+      <masked>false</masked>
+      <name>filename</name>
+   </variable>
+</TestCaseEntity>

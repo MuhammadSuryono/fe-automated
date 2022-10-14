@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create User - Expect FAILED - Duplicate Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8a765bd-9e3b-4c5e-a923-454a9d98c375</testCaseGuid>
+</TestCaseEntity>

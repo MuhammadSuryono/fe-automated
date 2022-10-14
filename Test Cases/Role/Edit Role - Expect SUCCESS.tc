@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected edit role success with change role name and role policies</description>
+   <name>Edit Role - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac5083a2-da33-47b6-87bd-db73c9f70f32</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Site - Expect SUCCESS - Saw dialog success and text success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61e1cef4-c141-42c2-b6d3-17aae25f1b09</testCaseGuid>
+   <variable>
+      <defaultValue>'my site'</defaultValue>
+      <description></description>
+      <id>91591034-972f-4f6d-976b-fd7814a73ccf</id>
+      <masked>false</masked>
+      <name>siteName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Active'</defaultValue>
+      <description></description>
+      <id>f1cc5e74-b498-4253-b762-f6c7682e1283</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

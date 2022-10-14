@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter Project Range Start and End Project - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d67f56eb-c8aa-45af-8e87-37cafb06c157</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>57a3e98f-abc4-4fb1-85ef-d004b9b2699a</id>
+      <masked>false</masked>
+      <name>startDate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d2d5f12-88bb-409f-9b13-dec455bb3870</id>
+      <masked>false</masked>
+      <name>endDate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>30aabbda-835d-4712-b232-48c11d1686c8</id>
+      <masked>false</masked>
+      <name>resultStartDate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ae5ef89c-432b-46cc-9f61-94f4e2771a8e</id>
+      <masked>false</masked>
+      <name>resultEndDate</name>
+   </variable>
+</TestCaseEntity>

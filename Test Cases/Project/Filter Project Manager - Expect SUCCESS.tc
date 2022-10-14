@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter Project Manager - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb8aea1b-9dc4-4c36-8586-4433d6a29243</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>19ec6af3-47f4-4d19-8dcd-ebf81c6ca337</id>
+      <masked>false</masked>
+      <name>managerSelected</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7b252786-d30a-448c-8a4e-90fb8aae36c9</id>
+      <masked>false</masked>
+      <name>managerName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3c19e60f-3f7c-4199-9a87-59ca63337d88</id>
+      <masked>false</masked>
+      <name>managerSearchTable</name>
+   </variable>
+</TestCaseEntity>

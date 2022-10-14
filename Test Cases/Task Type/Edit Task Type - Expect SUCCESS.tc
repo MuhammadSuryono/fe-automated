@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Task Type - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>704c8c57-e678-4cc1-ab90-a36a58b1bf21</testCaseGuid>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>58abfc63-e28b-4bb3-a1c2-7b3f6e27b424</id>
+      <masked>false</masked>
+      <name>isIconSuccessEdit</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>41501815-9055-4db8-9302-38101859cc20</id>
+      <masked>false</masked>
+      <name>isMessageSuccessEdit</name>
+   </variable>
+</TestCaseEntity>

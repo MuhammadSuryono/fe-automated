@@ -1,0 +1,16 @@
+﻿B-A
+B-G
+B-C
+M-A
+M-G
+M-C
+M-Inten
+M-Inten-C
+Death
+Death-C
+No Extractable Data Image
+Blank Image
+Duplicate Image
+Unreadable Image
+Other Image
+Mixed

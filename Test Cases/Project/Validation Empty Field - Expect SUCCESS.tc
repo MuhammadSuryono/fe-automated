@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validation Empty Field - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3338d613-fc14-4928-9fbe-cf466fc9ce2b</testCaseGuid>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>7e01a0d8-5d1e-4179-a225-c205282bee87</id>
+      <masked>false</masked>
+      <name>projectNameRequired</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>ca1c3b56-2089-4ea5-8d99-054beaa193bb</id>
+      <masked>false</masked>
+      <name>projectManagerRequired</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>6737fb56-c92d-47a9-a037-8701f0d318a0</id>
+      <masked>false</masked>
+      <name>workflowRequired</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>a0bc3d6f-0a09-492e-ae84-ebffb2eacf6b</id>
+      <masked>false</masked>
+      <name>startDateRequired</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>4857d5ba-2263-48fd-a903-16c3706e6b02</id>
+      <masked>false</masked>
+      <name>endDateRequired</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>545ddc89-e0c7-4744-a3d9-ee75066ec24b</id>
+      <masked>false</masked>
+      <name>statusRequired</name>
+   </variable>
+</TestCaseEntity>

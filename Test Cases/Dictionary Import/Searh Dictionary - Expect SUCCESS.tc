@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Searh Dictionary - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9746732-d65f-4f99-8ee7-29e93bfc6e7d</testCaseGuid>
+   <variable>
+      <defaultValue>'Haiti Comment'</defaultValue>
+      <description></description>
+      <id>1d8e453d-0b8b-4327-bd82-11228f706ec9</id>
+      <masked>false</masked>
+      <name>wordDictionarySearch</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a859e10e-c43f-455a-af39-cc1e53e7c5a4</id>
+      <masked>false</masked>
+      <name>resultTableSearch</name>
+   </variable>
+</TestCaseEntity>

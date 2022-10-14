@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Site Failed - Empty Fields Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>509d33a8-41b3-4f7a-ab83-ae15158f2d71</testCaseGuid>
+   <variable>
+      <defaultValue>'my site'</defaultValue>
+      <description></description>
+      <id>e8f87fbb-eaff-442b-8cc8-d56f78538075</id>
+      <masked>false</masked>
+      <name>siteName</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>e299bf62-01af-4d04-a2a5-11245dd31fef</id>
+      <masked>false</masked>
+      <name>isActive</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>db79a301-4fc1-4669-b316-daf9846fdeba</id>
+      <masked>false</masked>
+      <name>isSiteNameFilled</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>67c3f2fb-2f14-4673-8512-8875709e667a</id>
+      <masked>false</masked>
+      <name>isStatusFilled</name>
+   </variable>
+</TestCaseEntity>

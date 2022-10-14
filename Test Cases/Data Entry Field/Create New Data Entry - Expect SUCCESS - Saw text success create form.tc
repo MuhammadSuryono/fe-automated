@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Data Entry - Expect SUCCESS - Saw text success create form</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f10f9f6b-1368-40aa-ba13-e3cf6ea7ef10</testCaseGuid>
+   <variable>
+      <defaultValue>'Name'</defaultValue>
+      <description></description>
+      <id>0d0d17eb-815c-488e-931c-ff297bb2757a</id>
+      <masked>false</masked>
+      <name>column1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Age'</defaultValue>
+      <description></description>
+      <id>8aff8452-f9c7-406f-a8a1-30afddf1cfff</id>
+      <masked>false</masked>
+      <name>column2</name>
+   </variable>
+   <variable>
+      <defaultValue>'DIC0001 - Haiti Comments'</defaultValue>
+      <description></description>
+      <id>1ee042f7-f13f-4e2a-bd66-4a51726943b4</id>
+      <masked>false</masked>
+      <name>columnDictionary</name>
+   </variable>
+   <variable>
+      <defaultValue>'Surname'</defaultValue>
+      <description></description>
+      <id>fcbc87a0-ee9a-450b-922f-6cdd80892654</id>
+      <masked>false</masked>
+      <name>titleDictionary</name>
+   </variable>
+   <variable>
+      <defaultValue>'Comment'</defaultValue>
+      <description></description>
+      <id>3f6b81d4-5e75-417f-9dab-c6da6e888a8c</id>
+      <masked>false</masked>
+      <name>column4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d74b27ec-35c6-41af-836f-3a0daafc52b4</id>
+      <masked>false</masked>
+      <name>messageSuccessCreate</name>
+   </variable>
+   <variable>
+      <defaultValue>'Boby\'s Family Tree'</defaultValue>
+      <description></description>
+      <id>872b784c-74d2-46d2-bf15-0d07393da65f</id>
+      <masked>false</masked>
+      <name>titleDataEntryField</name>
+   </variable>
+   <variable>
+      <defaultValue>'/agus/'</defaultValue>
+      <description></description>
+      <id>f6e74f54-93ae-4c37-b3be-6c6ca679efba</id>
+      <masked>false</masked>
+      <name>regex1</name>
+   </variable>
+   <variable>
+      <defaultValue>'/[ahmad|dian]/'</defaultValue>
+      <description></description>
+      <id>e3d838c6-7c7a-4d5c-a29c-824f7ed93d20</id>
+      <masked>false</masked>
+      <name>dictionaryRegex</name>
+   </variable>
+</TestCaseEntity>

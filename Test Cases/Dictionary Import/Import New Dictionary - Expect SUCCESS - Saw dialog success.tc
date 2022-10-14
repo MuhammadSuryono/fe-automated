@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Import New Dictionary - Expect SUCCESS - Saw dialog success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9020295a-26b7-4f18-a35f-7bfc9802c14d</testCaseGuid>
+   <variable>
+      <defaultValue>'Haiti_Prefix.txt'</defaultValue>
+      <description></description>
+      <id>3c024f28-d6c7-43ac-8398-f1a2ef738193</id>
+      <masked>false</masked>
+      <name>filename</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>f0161d26-c4b0-43b3-8f79-f077adc5f22c</id>
+      <masked>false</masked>
+      <name>iconSuccess</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4f8a51a6-e897-4eb3-9889-7f07460273f2</id>
+      <masked>false</masked>
+      <name>messageSuccess</name>
+   </variable>
+   <variable>
+      <defaultValue>'Haiti Surname'</defaultValue>
+      <description></description>
+      <id>e45c6dfa-e5bf-4c42-b37d-09c3669d3d0d</id>
+      <masked>false</masked>
+      <name>dictionaryName</name>
+   </variable>
+</TestCaseEntity>

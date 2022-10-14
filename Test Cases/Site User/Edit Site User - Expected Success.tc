@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Site User - Expected Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13ead598-7ca4-4c87-b8ca-657fb47e1ac3</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Site User/Page_/div_USR0105 - Dian')</defaultValue>
+      <description></description>
+      <id>f0e0d64c-f091-4c7d-85a5-f96468726958</id>
+      <masked>false</masked>
+      <name>editSelectedValue</name>
+   </variable>
+</TestCaseEntity>

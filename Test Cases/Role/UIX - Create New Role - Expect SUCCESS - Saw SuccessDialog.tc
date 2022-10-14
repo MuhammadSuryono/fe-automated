@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UIX - Create New Role - Expect SUCCESS - Saw SuccessDialog</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f75aa67-c84d-4466-81d0-ce78361e6347</testCaseGuid>
+   <variable>
+      <defaultValue>'Monitoring'</defaultValue>
+      <description></description>
+      <id>6a8fba10-1125-4e7f-8353-b15475ec9177</id>
+      <masked>false</masked>
+      <name>role_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'File Management Viewer, Site Viewer, Role Viewer'</defaultValue>
+      <description></description>
+      <id>a6597a24-b062-451c-96e0-84dea5797c1f</id>
+      <masked>false</masked>
+      <name>policies</name>
+   </variable>
+</TestCaseEntity>

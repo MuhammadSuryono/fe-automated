@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Sucess</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8016424-6b19-46b4-91f2-b3a6db39547a</testCaseGuid>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>e01c5a6e-dbc3-44ea-ad35-e617193d516d</id>
+      <masked>false</masked>
+      <name>hasErrorMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>1332d1d9-bba0-4b30-acd7-8ffa6c812bfb</id>
+      <masked>false</masked>
+      <name>seeProfilePicture</name>
+   </variable>
+</TestCaseEntity>

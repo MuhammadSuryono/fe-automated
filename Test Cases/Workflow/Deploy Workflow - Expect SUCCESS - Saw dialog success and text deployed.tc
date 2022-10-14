@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Deploy Workflow - Expect SUCCESS - Saw dialog success and text deployed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>647e2b9e-7d21-4ab9-90b9-8c7bb76ee93f</testCaseGuid>
+   <variable>
+      <defaultValue>'process_file_preparation_data_entry_1.0.1'</defaultValue>
+      <description></description>
+      <id>ee6996ec-d74e-40e3-a081-6a03534d4dd1</id>
+      <masked>false</masked>
+      <name>workflowTitle</name>
+   </variable>
+</TestCaseEntity>

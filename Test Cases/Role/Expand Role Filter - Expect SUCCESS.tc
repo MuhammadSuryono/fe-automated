@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Expand Role Filter - Expect SUCCESS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>867da397-0265-450b-8139-e03c1b5ffebf</testCaseGuid>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>da7e96ad-e0c5-4d38-9c79-c1f745dff804</id>
+      <masked>false</masked>
+      <name>expand</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>d0d73b03-6fd2-4028-96a2-9659ee0cdf7e</id>
+      <masked>false</masked>
+      <name>collapse</name>
+   </variable>
+</TestCaseEntity>

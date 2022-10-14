@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter Site - Found Site</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36206e66-a0b3-48ae-83a5-60e98a5ec7d5</testCaseGuid>
+   <variable>
+      <defaultValue>'Site1'</defaultValue>
+      <description></description>
+      <id>767996d9-8812-49be-b4e6-017e3519b8c4</id>
+      <masked>false</masked>
+      <name>searchText</name>
+   </variable>
+</TestCaseEntity>
